@@ -1,10 +1,10 @@
 print("Mary has a little lamp.")
 
-print("It's fleece was white as %s")#'snow'
+print("It's fleece was white as {}.".format('snow'))
 
 print("And everywhere that Mary went")
 
-print(".")#*10 what'd that do?
+print("."*10)#*10 what'd that do?
 
 end1 = "C"
 end2 = "h"
