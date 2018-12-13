@@ -1,7 +1,7 @@
 # type in a whole bunch of strings, variables, and formats, and print them
 types_of_people = 10
 #assign 10 to types of people
-x = f"there are {types_of_people} types of people"
+x = f"there are {types_of_people}  types of people"
 #assign the f-string to the x(insert type_of_people in the string)
 
 
@@ -15,8 +15,8 @@ print(y)
 print(f"I said: {x}")#x
 print(f"I also said:'{y}'.")#y
 
-hilarious = false
-joke_evaluation = f"Isn't that joke so funny?! {false}"
+hilarious = "false"
+joke_evaluation = f"Isn't that joke so funny?! {hilarious}"
 
 print (joke_evaluation) #hilarious
 
