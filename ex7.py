@@ -19,6 +19,6 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-#watch that comma at the end. try removing it to see what happens
-print(end1+end2+end3+end4+end5+end6)
+print(end1+end2+end3+end4+end5+end6,end=' ')
+#end=' ' -----不想打印的时候到下行，就需要在打印的时候告诉python别打印新行用空格符号结束就好
 print(end7+end8+end9+end10+end11+end12)
