@@ -6,7 +6,7 @@ backslash_cat = "I'm \\ a \\ cat."
 
 fat_cat = """
 I'll will do a list:
-\t* Cat food
+\t\v* Cat food
 \t* Fishes
 \t* Catnip\n\t* Grass
 """
