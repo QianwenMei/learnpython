@@ -1,12 +1,12 @@
 #new
-age = input("How old are you?")
+age = int(input("How old are you? "))
 print(">>>>>>>>>age=",repr(age))
 
-height = input("How tall are you?")
+height = input(f"You're {age} nice! How tall are you? ")
 
-weight = input("How much do you weigh?")
+weight = input("How much do you weigh? ")
 
-print(f"So,you're {age} old,{height} tall and {weight} heavy.")
+print(f"So,you're {age} old,{height} tall and {weight} heavy. ")
 
 #before
 print("How old are you?",end = ' ')
